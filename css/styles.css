@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -203,6 +203,23 @@ div.item-description.col-sm-5 > h3 {
   margin-top: 0px;
 }
 
+
+/* Abou Page */
+.about-text {
+  text-align: center;
+}
+.about-header {
+  text-align: center;
+}
+
+/* Contact page */
+.contact-text {
+  text-align: center;
+}
+.contact-header {
+  text-align: center;
+}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -216,7 +233,7 @@ div.item-description.col-sm-5 > h3 {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    background: url('../images/logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -307,7 +324,10 @@ div.item-description.col-sm-5 > h3 {
     width: 100%;
   }
 }
- /* Footer */
+
+
+
+/* Footer */
 .panel-footer {
   margin-top: 30px;
   padding-top: 30px;
